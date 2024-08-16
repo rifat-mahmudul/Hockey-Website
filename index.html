@@ -26,8 +26,8 @@
                 <nav class="hidden lg:flex items-center gap-5">
                     <li class="list-none"><a href="#home" class="text-color-first">Home</a></li>
                     <li class="list-none"><a href="#about" class="hover:text-color-first transition-[0.5s]">About</a></li>
-                    <li class="list-none"><a href="#pages" class="hover:text-color-first transition-[0.5s]">Pages</a></li>
                     <li class="list-none"><a href="#blog" class="hover:text-color-first transition-[0.5s]">Blog</a></li>
+                    <li class="list-none"><a href="#pages" class="hover:text-color-first transition-[0.5s]">Pages</a></li>
                     <li class="list-none"><a href="#contact" class="hover:text-color-first transition-[0.5s]">Contact</a></li>
                 </nav>
             </div>
@@ -64,7 +64,7 @@
         <!-- -------------home-section end------------- -->
 
         <!-- -------------club-section start-------------- -->
-        <section>
+        <section id="about">
             <div class="mt-64 sm:mt-4 max-w-[90%] sm:max-w-[95%] lg:max-w[1150px] mb-4">
                 <h1 class="heading">Professional Hockeys Club</h1>
                 <p class="heading-pera">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br>dolor. Purus urna in sit nullam proin. </p>
@@ -102,7 +102,7 @@
 
 
         <!-- -------------program-section start---------------- -->
-        <section>
+        <section id="blog">
             
                 <div class="lg:mt-16 -mt-10 sm:mt-4 max-w-[90%] sm:max-w-[95%] lg:max-w[1150px] mb-4">
                     <h1 class="heading">Program Sections</h1>
@@ -145,7 +145,7 @@
 
 
         <!-- ----------------product-section start--------------- -->
-        <section>
+        <section id="pages">
             <div class="lg:mt-16 -mt-10 sm:mt-4 max-w-[90%] sm:max-w-[95%] lg:max-w[1150px] mb-4">
                 <h1 class="heading">Our New Products</h1>
                 <p class="heading-pera">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br>dolor. Purus urna in sit nullam proin. </p>
@@ -448,6 +448,74 @@
             </div>
         </section>
         <!-- --------------client-section end--------------- -->
+
+        <!-- --------------contact-section start-------------- -->
+        <section id="contact">
+            <div class="lg:mt-16 sm:mt-4 max-w-[90%] sm:max-w-[95%] lg:max-w[1150px] sm:mb-4 ">
+                <h1 class="heading">Get In Touch</h1>
+                <p class="heading-pera">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br>dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="max-w-[90%] sm:max-w-[95%] lg:max-w-[1150px] mx-auto lg:flex items-center justify-between mt-10">
+
+                <div class="lg:w-[30%] sm:flex justify-between lg:block border border-gray-400 p-5 rounded-lg shadow-lg mb-5 sm:mb-0">
+
+                    <div class="bg-[#f8fdf0] p-5 rounded-lg">
+                        <img src="Images/Group 1171275317.png" alt="" class="h-10">
+                        <p class="text-gray-500 mt-4 mb-3">Phone Number</p>
+                        <h6 class="font-[700]">017********</h6>
+                    </div>
+
+                    <div class="mt-4 mb-5 bg-[#fffcef] p-5 rounded-lg">
+                        <img src="Images/Group 1171275318.png" alt="" class="h-10">
+                        <p class="text-gray-500 mt-4 mb-3">Email</p>
+                        <h6 class="font-[700]">hockeys@support.com</h6>
+                    </div>
+
+                    <div class="bg-[#eff5fe] p-5 rounded-lg">
+                        <img src="Images/Group 1171275321.png" alt="" class="h-10">
+                        <p class="text-gray-500 mt-4 mb-3">Location</p>
+                        <h6 class="font-[700]">Dhaka, Bangladesh</h6>
+                    </div>
+
+                </div>
+
+                <div class="lg:w-[60%] sm:mt-8 lg:mt-0">
+                    <div class="sm:flex justify-between">
+                        <div>
+                            <h6 class="font-[700]">Your Name</h6><br>
+                            <input type="text" name="" id="" placeholder="Enter your full name" class="bg-[#f8f8f8] py-4 px-2 w-[250px] rounded-md">
+                        </div>
+
+                        <div>
+                            <h6 class="font-[700] mt-4 sm:mt-0">Your Email</h6><br>
+                            <input type="email" name="" id="" placeholder="Your Email" class="bg-[#f8f8f8] py-4 w-[250px] px-2 rounded-md">
+                        </div>
+                    </div>
+
+                    <div class="sm:flex justify-between mt-4">
+                        <div>
+                            <h6 class="font-[700]">Subject</h6><br>
+                            <input type="text" name="" id="" placeholder="Enter your subject" class="bg-[#f8f8f8] py-4 px-2 w-[250px] rounded-md">
+                        </div>
+
+                        <div>
+                            <h6 class="font-[700]  mt-4 sm:mt-0">Phone Number</h6><br>
+                            <input type="text" name="" id="" placeholder="Enter your phone number" class="bg-[#f8f8f8] py-4 w-[250px] px-2 rounded-md">
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <h6 class="font-[700]">Message</h6><br>
+                        <textarea name="" id="" placeholder="Write your message" class="sm:w-[450px] w-[250px] h-[250px] bg-[#f8f8f8] rounded-lg py-4 px-3"></textarea>
+                    </div>
+
+                    <button class="sm:w-[450px] w-[250px] bg-color-first py-3 text-white font-[700] rounded-md mt-4 transition-[0.5s] hover:bg-color-secound">Send Message</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- --------------contact-section end-------------- -->
     </main>
     <!-- --------------main end-------------- -->
 
